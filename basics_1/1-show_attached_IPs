@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#show all ip4 connect to the mashin
+ifconfig | grep "inet " | cut -d' ' -f2
